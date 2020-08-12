@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
+}
+.margin-bottom{
+height: 40px;
+}
+
+body{
+  /* #7952b3 */
+}
+
+/* START NAVEBAR */
+nav a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+span{
+  color: red;
+}
+
+.navbar {
+  background: black;
+  justify-content: center;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 13px;
+  margin-top: 10px;
+}
+
+ .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+ .nav-item {
+  padding: 0.9em;
+}
+
+ .navbar-brand {
+  padding-left: 8rem;
+}
+
+ .navbar-brand:hover {
+  color: white;
+}
+
+ nav .nav-link:hover {
+  color: red;
+}
+
+.login{
+  color: red;
+}
+.login:hover{
+  color: white;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #ff0018;
+  border-color: none;
+}
+
+
+/************ END NAVEBAR ***************/
+
+/************ START HEADER ***************/
+ header {
+  height: 65vh;
+  width: 85%;
+  background-image: url(../img/header2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+#container {
+  max-width: 350px;
+  width: 100%;
+  margin: initial;
+}
+
+/*search*/
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact select,input {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border: 2px solid red;
+  background: white;
+  color:  black;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: red;
+  transition: background-color 0.3s ease-in-out;
+  color: white;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+/************ END HEADER ***************/
+
+.col-md-4{
+  padding: 10px;
+}
+.card-product .info-wrap {
+  overflow: hidden;
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+
+.btn-outline-danger:hover{
+   color: white;
+}
+
+.label-rating { margin-right:10px;
+  color: #333;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-product .price-old {
+  color: #999;
+}
+
+@media (max-width: 700px){
+ 
+ 
+  .container {
+    max-width: 340px;
+    margin: initial;
+    margin-left: 4px;
+  }
+
+  
+
+  .nav{
+    justify-content: center;
+  }
+
+}
+
+
+footer {
+  padding-top: 0!important;
+  margin-top: 12%;
+}
+
+
+
+
+
